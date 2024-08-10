@@ -1,0 +1,35 @@
+{
+  "name": "logistic-sistem",
+  "version": "1.0.0",
+  "description": "\"we created a example using dependencis like my-sql 2 for do a crud and conecting a relational data base created in cloud server.com and managment a  view model controlator ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [
+    "model",
+    "view",
+    "controlator",
+    "modelo",
+    "vista",
+    "controlador",
+    "node",
+    "js"
+  ],
+  "author": "Alexis Soto Barreiro",
+  "license": "ISC",
+
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mysql2": "^3.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
